@@ -1,0 +1,8 @@
+NodeJS on the server
+ReactJS for Client side
+Minio server( play version used in the app )
+MYSQL instance on the server
+Node Package Manager like npm, yarn
+Terminal like Bash, zsh for running scripts
+Docker
+OS: Windows, Debian like ubuntu, mac

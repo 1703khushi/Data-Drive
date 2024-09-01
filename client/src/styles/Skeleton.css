@@ -1,0 +1,112 @@
+.skeleton {
+    background-color: rgb(199, 199, 199);
+    margin: 0.75rem 0;
+    border-radius: 0.25rem;
+}
+
+.skeleton.title { 
+    width: 25rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.skeleton.text {
+    height: 8rem;
+}
+.skeleton.text-25 {
+    height: 25rem;
+}
+.skeleton.text-4 {
+    height: 4rem;
+}
+.skeleton.text-2 {
+    height: 2rem;
+}
+
+.skeleton.challenge_name {
+    height: 2.5rem;
+}
+
+.skeleton.heading {
+    height: 2rem;
+    width: 30%;
+    margin-bottom: 1rem;
+}
+
+.skeleton.button{
+    height: 1.5rem;
+    width: 10rem;
+    border-radius: 1rem;
+    margin-left: 0.25rem;
+}
+
+.skeleton.height-2{
+    height: 2rem;
+}
+.skeleton.margin-left-1{
+    margin-left: 1rem;
+}
+.skeleton.margin-bottom-3{
+    margin-bottom: 3rem;
+}
+.skeleton.width-10{
+    width: 10%;
+}
+
+.skeleton.width-20{
+    width: 20%;
+}
+.skeleton.width-40{
+    width: 40%;
+}
+
+.skeleton.width-100 {
+    width: 100%;
+}
+
+.skeleton.width-50 {
+    width: 50%;
+}
+.skeleton.folder {
+    width: 20%;
+    height: 2.5rem;
+}
+.skeleton.InsertDriveFileIcon {
+    width: 10%;
+    height: 100%;
+}
+.skeleton.caption {
+    width: 90%;
+    height: 100%;
+}
+.skeleton.fileDate {
+    min-width: 10%;
+    flex: 1;
+    height: 100%;
+}
+.skeleton.fileSize {
+    flex: 1;
+    height: 100%;
+}
+
+
+.skeleton.profile-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.skeleton.view-card {
+    height: 15.8rem;
+}
+
+/* animation */
+@keyframes pulse {
+    50% {
+        opacity: .5;
+    }
+}
+
+.animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

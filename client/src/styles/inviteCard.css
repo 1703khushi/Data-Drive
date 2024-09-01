@@ -1,0 +1,26 @@
+.invite_card {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.invite_folder_name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.invite_permission {
+    width: 100%;
+}
+.invite_permission_row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+hr {
+    margin: 5px;
+}

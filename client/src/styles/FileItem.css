@@ -1,0 +1,43 @@
+.fileItem{
+    height: 55px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    border-top: 1px solid rgb(219, 219, 219);
+    width: 100%;
+}
+.fileItem:hover {
+    background-color: rgb(247, 247, 247);
+}
+
+.fileItem>a{
+    height: 100%;
+    display: flex;
+    text-decoration: none;
+    color: rgb(85, 78, 78);
+}
+
+.fileItem>a>div{
+    display: flex;
+    align-items: center;
+}
+
+.fileItem>a>div>*{
+    margin: 10px;
+}
+
+.fileItem--left{
+    flex: 1;
+}
+.downloading {
+    animation: spin 2s linear infinite;
+}
+.fileItem .deleteFile {
+    display: none;
+}
+.fileItem:hover .deleteFile {
+    display: block;
+    /* animation: spin 2s linear infinite; */
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
